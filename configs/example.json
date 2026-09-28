@@ -1,0 +1,24 @@
+{
+  "data": {
+    "reconstruction": "../../SfM/datasets/test_dataset/data/solve/reconstructionBAcl.npz",
+    "images_dir": "../../SfM/datasets/test_dataset/images",
+    "sfm_max_side": 1600,
+    "max_side": 800
+  },
+  "scene": {"box_min": null, "box_max": null, "near": 0.3},
+  "training": {
+    "directory": "../training/test_dataset", "model_id": "test_dataset",
+    "steps": 10000, "period": 100, "batch_rays": 512,
+    "samples_per_ray": 64, "lr": 0.00005, "lmd": 0.00013, "seed": 777
+  },
+  "preview": {
+    "enabled": true, "host": "127.0.0.1", "port": 8080,
+    "width": 360, "height": 640, "downscale": 5,
+    "samples_per_ray": 64, "views": [0, 1, 2],
+    "save_seconds": 120, "image_seconds": 30
+  },
+  "viewer": {
+    "width": 540, "height": 960, "block_size": 12,
+    "samples_per_ray": 64, "camera": 0, "move_speed": 1.0
+  }
+}

@@ -1,0 +1,15 @@
+.venv/
+pyramid_data/
+pyramid_data_old/
+training/
+__pycache__
+preview_gt_*
+# Local experiments, preserved originals, personal configs and generated data
+local/
+configs/*.local.json
+datasets/
+scene_datas/
+test_data_gen/
+test_overfit/
+test_overfit_2img/
+*.pyc
